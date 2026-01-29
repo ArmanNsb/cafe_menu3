@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منوی کافه ون | Cafe Van Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div class="app-container">
+    <!-- === بخش استارتاپ (Splash Screen) === -->
+    <div id="splash-screen">
+        <!-- پترن پس‌زمینه -->
+        <div class="splash-pattern">
+            <img src="images/startup-pattern.svg" alt="">
+        </div>
+
+        <!-- محتوای مرکزی (لوگو) -->
+        <div class="splash-content">
+            <img src="images/startup-Logo.svg" alt="No.65" class="splash-logo">
+        </div>
+
+        <!-- متن پایین صفحه -->
+        <div class="splash-footer">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet.
+            </p>
+        </div>
+    </div>
+    <!-- هدر -->
+    <header class="main-header"><br>
+		<div class="logo-container">
+            <img src="images/logo.svg" alt="No.65 Menu" class="logo-img">
+        </div>
+		<div class="header-text">
+			<h3 id="cafe-name">no.65</h3>
+			<h1 id="main-title">menu</h1>
+		</div>
+        
+    </header>
+
+    <main class="menu-container">
+
+        <!-- 1. قهوه‌های گرم -->
+        <div class="menu-category" id="warm-coffees">
+            <div class="category-header">
+                <h2 class="cat-title-fa">قهوه‌های گرم</h2>
+                <span class="cat-title-en">WARM COFFEES</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/warm-coffees-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    
+                    <!-- راهنمای قیمت دوگانه -->
+                    <div class="price-labels">
+                        <span>تک‌خاستگاه</span>
+                        <span>ترکیبی</span>
+                    </div>
+
+                    <!-- آیتم‌ها -->
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price">
+                                <span>162</span><span class="divider">|</span><span>145</span>
+                            </div>
+                            <span class="dots"></span>
+                            <h3 class="item-name">اسپرسو</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price">
+                                <span>178</span><span class="divider">|</span><span>150</span>
+                            </div>
+                            <span class="dots"></span>
+                            <h3 class="item-name">آمریکانو</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price">
+                                <span>185</span><span class="divider">|</span><span>175</span>
+                            </div>
+                            <span class="dots"></span>
+                            <h3 class="item-name">کافه لاته</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price">
+                                <span>180</span><span class="divider">|</span><span>170</span>
+                            </div>
+                            <span class="dots"></span>
+                            <h3 class="item-name">کاپوچینو</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price">
+                                <span>175</span><span class="divider">|</span><span>165</span>
+                            </div>
+                            <span class="dots"></span>
+                            <h3 class="item-name">فلت وایت</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price">
+                                <span>220</span><span class="divider">|</span><span>210</span>
+                            </div>
+                            <span class="dots"></span>
+                            <h3 class="item-name">کارامل ماکیاتو</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price">
+                                <span>230</span><span class="divider">|</span><span>220</span>
+                            </div>
+                            <span class="dots"></span>
+                            <h3 class="item-name">موکا</h3>
+                        </div>
+                    </div>
+
+                    <!-- آیتم‌های تک قیمتی آخر لیست -->
+                    <div class="menu-item single-row">
+                        <div class="item-top-row">
+                            <span class="price">250</span>
+                            <span class="dots"></span>
+                            <h3 class="item-name">دمی</h3>
+                        </div>
+                    </div>
+
+                    <div class="menu-item single-row">
+                        <div class="item-top-row">
+                            <span class="price">190</span>
+                            <span class="dots"></span>
+                            <h3 class="item-name">فیلتر کافی</h3>
+                        </div>
+                        <p class="item-desc">یک بار شارژ رایگان</p><br>
+                    <p class="cat-description">*نوشیدنی‌های حاوی شیر به انتخاب شما، با شیر گیاهی نیز سرو می‌شود.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. نوشیدنی‌های گرم -->
+        <div class="menu-category" id="hot-drinks">
+            <div class="category-header">
+                <h2 class="cat-title-fa">نوشیدنی‌های گرم</h2>
+                <span class="cat-title-en">HOT DRINKS</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/hot-drinks-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item"><div class="item-top-row"><span class="price">215</span><span class="dots"></span><h3 class="item-name">چای لاته</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">220</span><span class="dots"></span><h3 class="item-name">ماسالا لاته</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">260</span><span class="dots"></span><h3 class="item-name">بیسکو لاته</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">350</span><span class="dots"></span><h3 class="item-name">کوکونات لاته</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">250</span><span class="dots"></span><h3 class="item-name">ماچا لاته</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">340</span><span class="dots"></span><h3 class="item-name">ماچا وانیل</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">230</span><span class="dots"></span><h3 class="item-name">هات چاکلت</h3></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. چای و دمنوش‌ها -->
+        <div class="menu-category" id="teas">
+            <div class="category-header">
+                <h2 class="cat-title-fa">چای و دمنوش‌ها</h2>
+                <span class="cat-title-en">TEAS AND HERBAL TEAS&nbsp;</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/teas-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item"><div class="item-top-row"><span class="price">95</span><span class="dots"></span><h3 class="item-name">چای سیاه دمی</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">125</span><span class="dots"></span><h3 class="item-name">چای هل و گل سرخ</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">140</span><span class="dots"></span><h3 class="item-name">چای سبز</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">225</span><span class="dots"></span><h3 class="item-name">ترکیب گل گاوزبان</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">225</span><span class="dots"></span><h3 class="item-name">ترکیب توت‌فرنگی و سیب</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">225</span><span class="dots"></span><h3 class="item-name">ترکیب چای سبز و نعنا فلفلی</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">240</span><span class="dots"></span><h3 class="item-name">ترکیب سرماخوردگی</h3></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. قهوه‌های سرد -->
+        <div class="menu-category" id="cold-coffees">
+            <div class="category-header">
+                <h2 class="cat-title-fa">قهوه‌های سرد</h2>
+                <span class="cat-title-en">COLD COFFEES</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/cold-coffees-pattern.svg" alt=""></div>
+                <div class="items-card">
+                     <div class="price-labels">
+                        <span>تک‌خاستگاه</span>
+                        <span>ترکیبی</span>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price"><span>190</span><span class="divider">|</span><span>160</span></div>
+                            <span class="dots"></span><h3 class="item-name">آیس آمریکانو</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price"><span>195</span><span class="divider">|</span><span>185</span></div>
+                            <span class="dots"></span><h3 class="item-name">آیس لاته</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price"><span>225</span><span class="divider">|</span><span>220</span></div>
+                            <span class="dots"></span><h3 class="item-name">آیس کارامل ماکیاتو</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price"><span>230</span><span class="divider">|</span><span>230</span></div>
+                            <span class="dots"></span><h3 class="item-name">آیس موکا</h3>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row">
+                            <div class="multi-price"><span>??</span><span class="divider">|</span><span>??</span></div>
+                            <span class="dots"></span><h3 class="item-name">آیس دمی</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. نوشیدنی‌های سرد -->
+        <div class="menu-category" id="cold-drinks">
+            <div class="category-header">
+                <h2 class="cat-title-fa">نوشیدنی‌های سرد</h2>
+                <span class="cat-title-en">COLD DRINKS</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/cold-drinks-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item"><div class="item-top-row"><span class="price">260</span><span class="dots"></span><h3 class="item-name">گود مود</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">310</span><span class="dots"></span><h3 class="item-name">کوکو پانچ</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">300</span><span class="dots"></span><h3 class="item-name">مورنینگ افتر</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">280</span><span class="dots"></span><h3 class="item-name">پاور شیک</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">350</span><span class="dots"></span><h3 class="item-name">لمون شیک</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">280</span><span class="dots"></span><h3 class="item-name">ساکورا</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">320</span><span class="dots"></span><h3 class="item-name">فرش ماچا</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">250</span><span class="dots"></span><h3 class="item-name">گرین باتل (باتل)</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">270</span><span class="dots"></span><h3 class="item-name">جینجر لایم (باتل)</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">290</span><span class="dots"></span><h3 class="item-name">لوندر فیز (باتل)</h3></div></div>
+                    <div class="menu-item"><div class="item-top-row"><span class="price">330</span><span class="dots"></span><h3 class="item-name">فراپاچینو کلاسیک</h3></div></div>
+                    
+                    <p class="cat-description" style="margin-top:15px; font-size: 0.8rem;">سیروپ انتخابی: کارامل/ شکلات/ فندق/ نارگیل</p>
+                    
+                    <div style="margin-top: 20px; border-top: 1px dashed var(--line-green); padding-top: 10px;">
+                        <div class="menu-item"><div class="item-top-row"><span class="price">220</span><span class="dots"></span><h3 class="item-name">آبمیوه طبیعی</h3></div></div>
+                        <div class="menu-item"><div class="item-top-row"><span class="price">130</span><span class="dots"></span><h3 class="item-name">سودا با لیمو</h3></div></div>
+                        <div class="menu-item"><div class="item-top-row"><span class="price">95</span><span class="dots"></span><h3 class="item-name">آب معدنی</h3></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6. صبحانه‌ها -->
+        <div class="menu-category food" id="breakfasts">
+            <div class="category-header">
+                <h2 class="cat-title-fa">صبحانه‌ها</h2>
+                <span class="cat-title-en">BREAKFASTS</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/breakfasts-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">650</span><span class="dots"></span><h3 class="item-name">بشقاب <img src="images/item-logo.svg" class="item-icon-65" alt="#65"></h3></div>
+                        <p class="item-desc">املت فرانسوی با پنیر پارمسان/ سوسیس/ سیب‌زمینی سرخ شده/ به همراه نان فرانسوی و سالاد میکس با سس عسل</p>
+                        <p class="item-desc" style="color: var(--accent-color); font-size: 0.75rem;">سس انتخابی: سس پستو / سس پومودورو</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">390</span><span class="dots"></span><h3 class="item-name">املت گوجه‌فرنگی</h3></div>
+                        <p class="item-desc">به همراه نان فرانسوی/ خیار، گوجه گیلاسی با سس عسل</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">480</span><span class="dots"></span><h3 class="item-name">سوسیس و تخم‌مرغ</h3></div>
+                        <p class="item-desc">به همراه نان فرانسوی/ خیار، گوجه گیلاسی با سس عسل</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">290</span><span class="dots"></span><h3 class="item-name">نیمرو</h3></div>
+                        <p class="item-desc">به همراه نان فرانسوی/ خیار، گوجه گیلاسی با سس عسل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. سالادها -->
+        <div class="menu-category food" id="salads">
+            <div class="category-header">
+                <h2 class="cat-title-fa">سالادها</h2>
+                <span class="cat-title-en">SALADS</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/salads-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">530</span><span class="dots"></span><h3 class="item-name"> سالاد <img src="images/item-logo.svg" class="item-icon-65" alt="#65"></h3></div>
+                        <p class="item-desc">سبزی میکس/کرنبری مزه‌دار شده/پنیر سبزیجات/مرغ مزه‌دار شده/ نان کروتن/ به همراه سس عسل</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">480</span><span class="dots"></span><h3 class="item-name"> کینوا</h3><img src="images/vegan-tag.svg" class="vegan-icon" alt="Vegan"></div>
+                        <p class="item-desc">سبزی میکس/گوجه گیلاسی/خیار/پیاز بنفش/کینوا/نخود رست شده/به همراه سس ماست و انار</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 8. دیپ‌ها -->
+        <div class="menu-category food" id="dips">
+            <div class="category-header">
+                <h2 class="cat-title-fa">دیپ‌ها</h2>
+                <span class="cat-title-en">DIPS</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/dips-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">470</span><span class="dots"></span><h3 class="item-name"> اسپایسی <img src="images/item-logo.svg" class="item-icon-65" alt="#65"> <img src="images/vegan-tag.svg" class="vegan-icon"  style="top:-5px"  alt="Vegan"></h3></div>
+                        <p class="item-desc">پوره لوبیا قرمز/ سس چیلی/ به همراه نان ترتیلا</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">410</span><span class="dots"></span><h3 class="item-name"> حمص</h3><img src="images/vegan-tag.svg" class="vegan-icon" alt="Vegan"></div>
+                        <p class="item-desc">به همراه نان ترتیلا</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">460</span><span class="dots"></span><h3 class="item-name"> حمص پستو</h3><img src="images/vegan-tag.svg" class="vegan-icon" alt="Vegan"></div>
+                        <p class="item-desc">به همراه نان ترتیلا</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9. ساندویچ‌ها -->
+        <div class="menu-category food" id="sandwiches">
+            <div class="category-header">
+                <h2 class="cat-title-fa">ساندویچ‌ها</h2>
+                <span class="cat-title-en">SANDWICHES</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/sandwiches-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">590</span><span class="dots"></span><h3 class="item-name">مرغ با سس پستو <img src="images/item-logo.svg" class="item-icon-65" alt="#65"></h3></div>
+                        <p class="item-desc">باگت فرانسوی تست شده/ مرغ مزه‌دار شده/ روکولا/ سس پستو/ سس پومودورو/ به همراه سیب‌زمینی سرخ شده</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">760</span><span class="dots"></span><h3 class="item-name">پولد بیف</h3></div>
+                        <p class="item-desc">باگت فرانسوی تست شده/ پولد بیف/ روکولا/ مایونز دست‌ساز پیاز کاراملی/ به همراه سیب‌زمینی سرخ شده</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">490</span><span class="dots"></span><h3 class="item-name"> بادمجان با مایونز انار</h3><img src="images/vegan-tag.svg" class="vegan-icon" alt="Vegan"></div>
+                        <p class="item-desc">باگت فرانسوی تست شده/ بادمجان سرخ شده/ حمص/ روکولا/ گوجه خشک مزه‌دار شده/ پرک بادام/ مایونز دست‌ساز انار/ به همراه سیب‌زمینی سرخ شده</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 10. پاستاها -->
+        <div class="menu-category food" id="pastas"  >
+            <div class="category-header">
+                <h2 class="cat-title-fa">پاستاها</h2>
+                <span class="cat-title-en">PASTAS</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/pastas-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">610</span><span class="dots"></span><h3 class="item-name">آلفردو</h3></div>
+                        <p class="item-desc">فتوچینی/سس آلفردو/مرغ مزه‌دار شده/پارمسان</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">630</span><span class="dots"></span><h3 class="item-name">پستو <img src="images/item-logo.svg" class="item-icon-65" alt="#65"></h3></div>
+                        <p class="item-desc">فتوچینی/سس پستو/مرغ مزه‌دار شده/پارمسان</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">480</span><span class="dots"></span><h3 class="item-name"> پومودورو</h3><img src="images/vegan-tag.svg" class="vegan-icon" alt="Vegan"></div>
+                        <p class="item-desc">فتوچینی/سس پومودورو/گوجه گیلاسی/پارمسان</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 11. بشقاب‌ها -->
+        <div class="menu-category food" id="plates">
+            <div class="category-header">
+                <h2 class="cat-title-fa">بشقاب‌ها</h2>
+                <span class="cat-title-en">PLATES</span>
+            </div>
+            <div class="category-content">
+                <div class="category-pattern"><img src="images/plates-pattern.svg" alt=""></div>
+                <div class="items-card">
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">670</span><span class="dots"></span><h3 class="item-name">مرغ با مایونز زیتون</h3></div>
+                        <p class="item-desc">سینه مرغ مزه‌دار شده/مایونز دست‌ساز زیتون/به همراه سیب‌زمینی سرخ شده و سالاد میکس با سس عسل</p>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-top-row"><span class="price">480</span><span class="dots"></span><h3 class="item-name">بشقاب <img src="images/item-logo.svg" class="item-icon-65" alt="#65"></h3><img src="images/vegan-tag.svg" class="vegan-icon" alt="Vegan"></div>
+                        <p class="item-desc">بادمجان سوخاری/سس گوجه‌فرنگی/سس پستو/پنیر پارمسان</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- فوتر آلرژی -->
+        <div class="footer">
+            *لطفاً حساسیت‌های غذایی‌تان را به ما بگویید.
+        </div>
+	
+    </main>
+	
+	    <div class="footer-decoration">
+        <img src="images/footer-pattern.svg" alt="">
+    </div>
+</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
