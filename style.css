@@ -373,7 +373,7 @@ transition-delay: 0s;}
 .footer {
 	text-align: center;
 	padding: 20px;
-	font-size: 1rem; 
+	font-size: 0.8rem; 
 	opacity: 0.8;
 }
 
@@ -684,5 +684,6 @@ transition-delay: 0s;}
     position: relative;
     top: 1px; /* اصلاح ریز تراز متن */
 }
+
 
 
