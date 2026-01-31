@@ -353,9 +353,10 @@ transition-delay: 0s;}
 .cat-description {
     font-size: 1rem;
     color: var(--text-dark);
-    margin-bottom: -10px;
+    margin-bottom:-10px;
     opacity: 0.85;
     line-height: 1.2;
+	margin-top: 0px;
 }
 
 .food .menu-item {
@@ -521,21 +522,20 @@ transition-delay: 0s;}
 }
 
 .vegan-icon {
-    width: 80px;
+    width: 70px;
     height: auto;
     vertical-align: middle;
     position: relative;
     
     /* تنظیم موقعیت و اورلپ (Overlap) */
-    top: 8px; 
-    margin-right: 4px; /* کمی میکشه سمت راست که روی متن قبلی بیفته */
+    top: -2px; 
+    margin-right: -11px; /* کمی میکشه سمت راست که روی متن قبلی بیفته */
     
     /* چرخش ۵ درجه */
-    transform: rotate(5deg);
+    transform: rotate(-3deg);
+	margin-left: 0px;
     
-    /* دراپ شادو برای اینکه مثل جسم واقعی دیده بشه */
-    /* filter: drop-shadow(x-offset y-offset blur color) */
-    filter: drop-shadow(-2px 2px 1px rgba(32, 77, 42, 0.3));
+  
     
     z-index: 1; /* میاد روی متن */
 }
@@ -580,4 +580,107 @@ transition-delay: 0s;}
 
     opacity: 0.7;
     mix-blend-mode: overlay;
+}
+
+/* --- استایل گروه باتل‌ها (نوشیدنی‌های خاص) --- */
+.bottle-group {
+    position: relative; /* مرجع برای آیکون شناور */
+}
+
+.bottle-sign-icon {
+    position: absolute;
+    z-index: 5; /* میاد روی متن‌ها و خط‌چین */
+    pointer-events: none; /* کلیک از روش رد میشه (مزاحم نیست) */
+    
+    /* تنظیم ابعاد */
+    height: 120%; /* کمی بزرگتر از ارتفاع سه تا آیتم */
+    width: auto;
+    
+    /* تنظیم موقعیت (وسط عمودی) */
+    top: 46%;
+    transform: translateY(-50%);
+    
+    /* تنظیم موقعیت افقی (روی خط‌چین‌ها) */
+    /* چون RTL هست، right رو تنظیم میکنیم */
+    left: 62%; /* حدوداً نزدیک قیمت‌ها و روی خط‌چین */
+}
+
+/* --- اصلاح متن اسپلش اسکرین --- */
+.splash-contact {
+    font-family: var(--font-en);
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.85rem;
+	font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin: 0;
+    direction: ltr; /* چپ چین برای آدرس انگلیسی */
+}
+
+/* --- لینک‌های روی پترن پایین (فوتر اصلی) --- */
+.footer-decoration {
+    position: relative; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* کانتینر لینک‌ها */
+.footer-links {
+    position: absolute;
+    /* تنظیم ارتفاع برای قرارگیری دقیق وسط پترن */
+    bottom: 40px; 
+    left: 50%;
+    transform: translateX(-50%);
+    
+    display: flex;
+    flex-direction: column; /* لینک‌ها زیر هم باشن */
+    gap: 6px; /* فاصله بین سایت و اینستا */
+    align-items: center; /* وسط‌چین */
+    
+    z-index: 10;
+    pointer-events: auto; /* فعال کردن کلیک */
+	    direction: ltr; 
+}
+
+/* دکمه‌های تکی */
+.social-btn {
+    display: flex;
+    align-items: center; /* تراز عمودی آیکون و متن */
+    gap: 2px; /* فاصله آیکون تا متن */
+    text-decoration: none;
+    
+    /* تنظیمات فونت و رنگ */
+    color: rgba(255, 255, 255, 0.95);
+    font-family: var(--font-en);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    
+    transition: transform 0.2s ease, opacity 0.2s ease;
+	    /* تضمین میکنیم آیکون چپ و متن راست باشه */
+    flex-direction: row; 
+	
+}
+
+.social-btn:active {
+    transform: scale(0.95);
+    opacity: 1;
+}
+
+/* آیکون‌ها */
+.social-icon-svg {
+    width: 18px; /* سایز ظریف و مدرن */
+    height: 18px;
+    fill: currentColor; /* رنگش رو از متن میگیره */
+    display: block;
+}
+
+/* متن لینک‌ها */
+.social-text {
+    position: relative;
+    top: 1px; /* اصلاح ریز تراز متن */
 }
