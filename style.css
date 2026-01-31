@@ -304,7 +304,7 @@ transition-delay: 0s;}
 }
 
 .item-desc {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.6;
     color: var(--text-dark);
     opacity: 0.9;
@@ -684,4 +684,5 @@ transition-delay: 0s;}
     position: relative;
     top: 1px; /* اصلاح ریز تراز متن */
 }
+
 
