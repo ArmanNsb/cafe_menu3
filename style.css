@@ -527,7 +527,7 @@ transition-delay: 0s;}
     position: relative;
     
     /* تنظیم موقعیت و اورلپ (Overlap) */
-    top: 5px; 
+    top: 8px; 
     margin-right: 4px; /* کمی میکشه سمت راست که روی متن قبلی بیفته */
     
     /* چرخش ۵ درجه */
@@ -535,7 +535,7 @@ transition-delay: 0s;}
     
     /* دراپ شادو برای اینکه مثل جسم واقعی دیده بشه */
     /* filter: drop-shadow(x-offset y-offset blur color) */
-    filter: drop-shadow(17px 7px 15px rgba(32, 77, 42, 0.4));
+    filter: drop-shadow(-2px 2px 1px rgba(32, 77, 42, 0.3));
     
     z-index: 1; /* میاد روی متن */
 }
