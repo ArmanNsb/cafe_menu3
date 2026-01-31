@@ -174,14 +174,14 @@ body {
 }
 
 .cat-title-fa {
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0px;
 }
 
 .cat-title-en {
     font-family: var(--font-en);
-    font-size: 0.85rem;
+    font-size: 0.65rem;
 	font-weight: 500;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.9);
@@ -278,7 +278,7 @@ transition-delay: 0s;}
 }
 
 .item-name {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--text-dark);
     order: -1; /* نام سمت راست */
@@ -288,7 +288,7 @@ transition-delay: 0s;}
 .price {
     font-family: var(--font-en);
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--text-dark);
     order: 2; /* قیمت سمت چپ */
 }
@@ -304,7 +304,7 @@ transition-delay: 0s;}
 }
 
 .item-desc {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.6;
     color: var(--text-dark);
     opacity: 0.9;
@@ -326,7 +326,7 @@ transition-delay: 0s;}
 
 .multi-price {
     display: flex;
-	font-size: 1.2rem;
+	font-size: 1rem;
     gap: 5px;
     font-family: var(--font-en);
     font-weight: 700;
@@ -344,14 +344,14 @@ transition-delay: 0s;}
     justify-content: flex-end;
 	font-weight: 700;
     gap: 10px;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     color: #711426;
     margin-bottom: 5px;
     margin-left: -6px;
 }
 
 .cat-description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--text-dark);
     margin-bottom: -10px;
     opacity: 0.85;
